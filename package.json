@@ -7,9 +7,13 @@
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sass": "^1.34.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
   },
   "keywords": [],
   "author": "",
