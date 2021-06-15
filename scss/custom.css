@@ -11481,5 +11481,10 @@ fieldset:disabled .btn {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
+  .container-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=custom.css.map */
