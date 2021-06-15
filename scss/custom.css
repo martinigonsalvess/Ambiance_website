@@ -11476,6 +11476,16 @@ fieldset:disabled .btn {
           justify-content: flex-end;
 }
 
+.intro-text {
+  padding-right: 1rem;
+}
+
+.intro-image img {
+  border-radius: 10px;
+  margin-right: 1.5rem;
+  max-width: 400px;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
@@ -11485,6 +11495,14 @@ fieldset:disabled .btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .intro-text {
+    max-width: 400px;
+  }
+  .intro-image {
+    background-size: cover;
   }
 }
 /*# sourceMappingURL=custom.css.map */
