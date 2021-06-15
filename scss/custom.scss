@@ -1,4 +1,9 @@
 $body-bg: black;
+$body-color: white;
+$primary: rgb(209, 208, 208);
+$secondary: rgb(135, 120, 70);
+
+$font-family-sans-serif: "Quicksand", sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 .navbar-collapse {
