@@ -10733,5 +10733,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar-collapse {
+  justify-content: flex-end;
+}
 
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */

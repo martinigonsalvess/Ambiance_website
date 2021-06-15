@@ -1,3 +1,6 @@
 $body-bg: black;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+.navbar-collapse {
+  justify-content: flex-end;
+}
