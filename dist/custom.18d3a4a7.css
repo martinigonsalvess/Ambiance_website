@@ -10739,12 +10739,18 @@ textarea.form-control-lg {
 
 .intro-text {
   padding-right: 1rem;
+  padding-top: 2rem;
+}
+
+.intro-image {
+  padding-top: 2rem;
 }
 
 .intro-image img {
   border-radius: 10px;
   margin-right: 1.5rem;
   max-width: 400px;
+  border: 2px solid #877846;
 }
 
 @media (min-width: 992px) {
@@ -10760,10 +10766,6 @@ textarea.form-control-lg {
 
   .intro-text {
     max-width: 400px;
-  }
-
-  .intro-image {
-    background-size: cover;
   }
 }
 

@@ -31,7 +31,9 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -48,7 +50,9 @@
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <li><a class="dropdown-item" href="#">Standaard</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#behandelingen">Standaard</a>
+                  </li>
                   <li><a class="dropdown-item" href="#">Basis</a></li>
                   <li>
                     <a class="dropdown-item" href="#">Gezichtreiniging</a>
@@ -67,9 +71,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Producten</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Ultrasonic</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
@@ -79,7 +83,7 @@
       </nav>
     </div>
     <!--HERO SECTION-->
-    <div class="container-fluid home-section mt-5">
+    <div class="container-fluid home-section mt-5" id="home">
       <div class="container">
         <h1 class="fw-bold text-center">
           Schoonheidssalon <span class="logo text-secondary">Ambiance</span>
@@ -90,10 +94,17 @@
         </p>
         <div class="container-intro">
           <div class="intro-text">
-            <p>Ik ben Inge Vogels en heb 20 jaar ervaring in mijn vakgebied.</p>
             <p>
-              Met het product SKEYNDOR kan ik, na een huidanalyse een
-              behandelingsplan opstellen waarbij huidverbetering centraal staat.
+              Ik ben<span class="logo text-secondary fw-bold">
+                Inge Vogels</span
+              >
+              en heb 20 jaar ervaring in mijn vakgebied.
+            </p>
+            <p>
+              Met het product
+              <span class="logo text-secondary fw-bold">SKEYNDOR</span> kan ik,
+              na een huidanalyse een behandelingsplan opstellen waarbij
+              huidverbetering centraal staat.
             </p>
             <p>
               Mijn specialisatie is acne, veel zorgverzekeraars vergoeden
@@ -101,6 +112,8 @@
               Informatie over de vergoeding is terug te vinden in uw
               polisvoorwaarden.
             </p>
+            <p>Als er vragen zijn, kunt u contact met mij opnemen.</p>
+            <p>Graag tot ziens in mijn schoonheidssalon!</p>
           </div>
           <div class="intro-image">
             <img src="../assets/images/intro-image.jpg" />
@@ -108,6 +121,12 @@
         </div>
       </div>
     </div>
+    <!--Behandelingen-->
+    <div class="container-fluid behandelingen-section" id="behandelingen"></div>
+    <!--Producten-->
+    <div class="container-fluid behandelingen-section" id="producten"></div>
+    <!--Contact-->
+    <div class="container-fluid behandelingen-section" id="contact"></div>
     <script src="./index.js"></script>
   </body>
 </html>
