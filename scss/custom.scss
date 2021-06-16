@@ -1,7 +1,9 @@
-$body-bg: black;
+$body-bg: #2f3640;
 $body-color: white;
 $primary: rgb(209, 208, 208);
-$secondary: rgb(135, 120, 70);
+$secondary: #fbc531;
+$third: rgb(135, 120, 70);
+$fourth: #7f8fa6;
 
 $font-family-sans-serif: "Quicksand", sans-serif;
 
@@ -22,6 +24,16 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   margin-right: 1rem;
   max-width: 400px;
   border: 2px solid $secondary;
+}
+.card {
+  border: none;
+}
+.card-body {
+  background: $fourth;
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
 }
 
 //minimum 992px en groter
