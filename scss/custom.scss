@@ -15,19 +15,25 @@ $font-family-sans-serif: "Quicksand", sans-serif;
 }
 .intro-image {
   padding-top: 2rem;
+  // background-size: auto;
 }
 .intro-image img {
   border-radius: 10px;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   max-width: 400px;
   border: 2px solid $secondary;
 }
+
 //minimum 992px en groter
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+  }
+  .home-section,
+  .behandelingen-section {
+    height: 100vh;
   }
   .container-intro {
     display: flex;
@@ -36,4 +42,5 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   .intro-text {
     max-width: 400px;
   }
+  //Buttons hero section
 }

@@ -10748,7 +10748,7 @@ textarea.form-control-lg {
 
 .intro-image img {
   border-radius: 10px;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   max-width: 400px;
   border: 2px solid #877846;
 }
@@ -10757,6 +10757,11 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+  }
+
+  .home-section,
+.behandelingen-section {
+    height: 100vh;
   }
 
   .container-intro {

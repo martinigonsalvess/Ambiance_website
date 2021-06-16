@@ -13,21 +13,23 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark mt-3">
         <div class="container-fluid">
-          <a class="navbar-brand fw-bold text-secondary" href="#">Ambiance</a>
+          <a class="navbar-brand fw-bold text-secondary" href="#home">Ambiance</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Behandelingen
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Standaard</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#behandelingen">Standaard</a>
+                  </li>
                   <li><a class="dropdown-item" href="#">Basis</a></li>
                   <li>
                     <a class="dropdown-item" href="#">Gezichtreiniging</a>
@@ -46,9 +48,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Producten</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Ultrasonic</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
@@ -58,7 +60,7 @@
       </nav>
     </div>
     <!--HERO SECTION-->
-    <div class="container-fluid home-section mt-5">
+    <div class="container-fluid home-section mt-5" id="home">
       <div class="container">
         <h1 class="fw-bold text-center">
           Schoonheidssalon <span class="logo text-secondary">Ambiance</span>
@@ -86,8 +88,20 @@
               Informatie over de vergoeding is terug te vinden in uw
               polisvoorwaarden.
             </p>
-            <p>Als er vragen zijn, kunt u contact met mij opnemen.</p>
-            <p>Graag tot ziens in mijn schoonheidssalon!</p>
+            <p class="fst-italic">
+              Als er vragen zijn, kunt u contact met mij opnemen.
+            </p>
+            <!--Buttons-->
+            <div class="d-grid gap-3 d-md-block mt-3 mb-3">
+              <button type="button" class="btn btn-outline-secondary">
+                E-MAIL
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                BEL 06 461 558 69
+              </button>
+            </div>
+            <!-- END Buttons-->
+            <p class="fw-bold">Graag tot ziens in mijn schoonheidssalon!</p>
           </div>
           <div class="intro-image">
             <img src="/intro-image.8d6dde4d.jpg">
@@ -95,6 +109,42 @@
         </div>
       </div>
     </div>
+    <!--Behandelingen-->
+    <div class="container-fluid behandelingen-section" id="behandelingen">
+      <div class="container row">
+        <h1 class="fw-bold text-center">Behandelingen</h1>
+        <p class="text-center fs-5 mb-5 text-white-50">
+          <!-- Schoonheidssalon <span class="logo text-secondary">Ambiance</span> is -->
+          Prijslijst
+        </p>
+        <div class="col-sm">
+          <div class="card">
+            <img src="/lotion.795b7fec.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Standaardbehandeling ( 75 min.)</h5>
+              <p class="card-text">Reiniging met milk en lotion</p>
+              <p class="card-text">Peeling</p>
+              <p class="card-text">Stomen en dieptereiniging</p>
+              <p class="card-text">Verwijderen van onzuiverheden</p>
+              <p class="card-text">Epileren</p>
+              <p class="card-text">
+                Uitgebreide gezichts,nek en schoudermassage
+              </p>
+              <p class="card-text">Masker aangepast aan huidtype</p>
+              <p class="card-text">Crème aangepast aan huidtype</p>
+              <p class="card-text">
+                Naar keuze een hoofdhuid,hand of voetmassage
+              </p>
+              <p class="card-text">Meerprijs Ultrasonic €5,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Producten-->
+    <div class="container-fluid behandelingen-section" id="producten"></div>
+    <!--Contact-->
+    <div class="container-fluid behandelingen-section" id="contact"></div>
     <script src="/src.e31bb0bc.js"></script>
   </body>
 </html>
