@@ -11528,6 +11528,10 @@ fieldset:disabled .btn {
   font-size: 0.8rem;
 }
 
+.card-body .card-extra-info {
+  font-size: 0.8rem;
+}
+
 .card-body .card-text {
   color: #dcdde1;
 }
@@ -11539,7 +11543,7 @@ fieldset:disabled .btn {
 .card-body .acne-zorg {
   padding-top: 1rem;
   border-top: 1px solid #fbc531;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .card-body .overige-container {
@@ -11560,11 +11564,12 @@ fieldset:disabled .btn {
 
 .card-footer .text-muted {
   color: #fbc531 !important;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.1rem;
 }
 
 .card-body .overige-container p span {
   color: #fbc531;
+  letter-spacing: 0.1rem;
 }
 
 @media (min-width: 992px) {

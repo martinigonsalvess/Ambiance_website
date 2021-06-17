@@ -59,6 +59,9 @@ $font-family-sans-serif: "Quicksand", sans-serif;
       font-size: 0.8rem;
     }
   }
+  .card-extra-info {
+    font-size: 0.8rem;
+  }
   .card-text {
     color: $fifth;
   }
@@ -68,7 +71,7 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   .acne-zorg {
     padding-top: 1rem;
     border-top: 1px solid $secondary;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 .card-body .overige-container {
@@ -82,11 +85,12 @@ $font-family-sans-serif: "Quicksand", sans-serif;
 
   .text-muted {
     color: $secondary !important;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.1rem;
   }
 }
 .card-body .overige-container p span {
   color: $secondary;
+  letter-spacing: 0.1rem;
 }
 
 //minimum 992px en groter
