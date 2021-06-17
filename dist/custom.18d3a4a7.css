@@ -10757,6 +10757,7 @@ textarea.form-control-lg {
   margin-top: 20px;
   border: none;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .card-img,
@@ -10771,7 +10772,8 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  background: #4b5664;
+  background: #1d2125;
+  border: none;
 }
 .card-body .card-title {
   font-size: 1.1rem;
@@ -10786,6 +10788,30 @@ textarea.form-control-lg {
 }
 .card-body p {
   margin-bottom: 0.3rem;
+}
+.card-body .acne-zorg {
+  padding-top: 1rem;
+  border-top: 1px solid #fbc531;
+  font-size: 0.7rem;
+}
+
+.card-body .overige-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-footer {
+  background: #1d2125;
+  border: none;
+}
+.card-footer .text-muted {
+  color: #fbc531 !important;
+  letter-spacing: 0.15rem;
+}
+
+.card-body .overige-container p span {
+  color: #fbc531;
 }
 
 @media (min-width: 992px) {
@@ -10806,6 +10832,10 @@ textarea.form-control-lg {
 
   .intro-text {
     max-width: 400px;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
   }
 }
 
