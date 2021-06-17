@@ -1,9 +1,10 @@
-$body-bg: #2f3640;
+$body-bg: #191c20;
 $body-color: white;
 $primary: rgb(209, 208, 208);
 $secondary: #fbc531;
 $third: rgb(135, 120, 70);
-$fourth: #7f8fa6;
+$fourth: #4b5664;
+$fifth: #dcdde1;
 
 $font-family-sans-serif: "Quicksand", sans-serif;
 
@@ -23,16 +24,44 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   border-radius: 10px;
   margin-right: 1rem;
   max-width: 400px;
-  border: 2px solid $secondary;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  // border: 2px solid $secondary;
 }
+
 .card {
+  margin-top: 20px;
+
   border: none;
+  border-radius: 10px;
+}
+.card-img,
+.card-img-top {
+  object-fit: cover;
+  aspect-ratio: 1/0.7;
+}
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .card-body {
   background: $fourth;
+  // border-bottom-left-radius: 10px;
+  // border-bottom-right-radius: 10px;
+
   .card-title {
     font-size: 1.1rem;
-    font-weight: bold;
+    // font-weight: bold;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $secondary;
+    span {
+      font-size: 0.8rem;
+    }
+  }
+  .card-text {
+    color: $fifth;
+  }
+  p {
+    margin-bottom: 0.3rem;
   }
 }
 
@@ -54,5 +83,4 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   .intro-text {
     max-width: 400px;
   }
-  //Buttons hero section
 }
