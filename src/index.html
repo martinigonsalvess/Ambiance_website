@@ -72,18 +72,18 @@
                     <a class="dropdown-item" href="#aanvullende">Aanvullende</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#massages">Massages</a>
+                    <a class="dropdown-item" href="#massage">Massages</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Producten</a>
+                <a class="nav-link" href="#producten">Producten</a>
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Ultrasonic</a>
               </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -142,7 +142,7 @@
     </div>
     <!--Behandelingen-->
     <div class="container-fluid behandelingen-section" id="behandelingen">
-      <div class="container p-5">
+      <div class="container py-5">
         <h1 class="fw-bold text-center">Behandelingen</h1>
         <p class="text-center fs-5 mb-5 text-white-50">
           <!-- Schoonheidssalon <span class="logo text-secondary">Ambiance</span> is -->
@@ -476,9 +476,35 @@
       </div>
     </div>
     <!--Producten-->
-    <div class="container-fluid producten-section" id="producten"></div>
+    <div class="container-fluid producten-section" id="producten">
+      <div class="container p-5">
+        <div>test</div>
+      </div>
+    </div>
     <!--Contact-->
-    <div class="container-fluid behandelingen-contact" id="contact"></div>
+    <div class="container-fluid contact-section" id="contact">
+      <div class="container py-5">
+        <h1 class="fw-bold text-center">Contact</h1>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="voornaam" class="form-label">Voornaam</label>
+            <input type="text" class="form-control" id="voornaam" required />
+          </div>
+          <div class="col-md-6">
+            <label for="achternaam" class="form-label">Achternaam</label>
+            <input type="text" class="form-control" id="achternaam" required />
+          </div>
+          <div class="col-md-8">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="col-md-4">
+            <label for="telefoon" class="form-label">Telefoonnummer</label>
+            <input type="telefoon" class="form-control" id="telefoon" />
+          </div>
+        </form>
+      </div>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>

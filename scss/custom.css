@@ -11488,9 +11488,10 @@ fieldset:disabled .btn {
 .intro-image img {
   border-radius: 10px;
   margin-right: 1rem;
-  max-width: 400px;
+  max-width: 300px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  border: 2px solid #fbc531;
 }
 
 .card {

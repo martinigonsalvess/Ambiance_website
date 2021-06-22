@@ -2,6 +2,7 @@
   "name": "bootstrap_ambiance",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "dependencies": {
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1"
