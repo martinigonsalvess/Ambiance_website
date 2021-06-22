@@ -15,8 +15,42 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   margin: 0;
   box-sizing: border-box;
 }
+.pijl-boven {
+  z-index: 10;
+  background: $secondary;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: $body-bg;
+  text-decoration: none;
+  border-radius: 5px;
+  opacity: 1;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+.container .navbar {
+  background: $body-bg;
+}
+
 .navbar-collapse {
   justify-content: flex-end;
+}
+.dropdown-toggle::after {
+  color: $secondary;
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
 }
 .intro-text {
   padding-right: 1rem;
@@ -106,10 +140,16 @@ $font-family-sans-serif: "Quicksand", sans-serif;
 }
 .contact-section {
   // background: url(../assets/images/contact-people.jpg) no-repeat;
-  background: brown;
+  background: $body-bg;
   background-size: 100% 100%;
   width: 100%;
   height: 100vh;
+  .container {
+    background: $body-bg1;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  }
 }
 
 //minimum 992px en groter

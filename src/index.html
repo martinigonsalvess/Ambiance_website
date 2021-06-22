@@ -9,12 +9,20 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/8bdcdcb984.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <!--FONT AWESOME-->
+    <a href="#home" class="pijl-boven">
+      <i class="fas fa-chevron-up"></i>
+    </a>
     <!--NAVIGATION SECTION-->
 
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark mt-3">
+      <nav class="navbar navbar-expand-lg navbar-dark mt-3 px-2">
         <div class="container-fluid">
           <a class="navbar-brand fw-bold text-secondary" href="#home"
             >Ambiance</a
@@ -482,9 +490,10 @@
       </div>
     </div>
     <!--Contact-->
-    <div class="container-fluid contact-section" id="contact">
+    <div class="container-fluid contact-section mb-3" id="contact">
+      <h1 class="fw-bold text-center my-5">Contact</h1>
+
       <div class="container py-5">
-        <h1 class="fw-bold text-center">Contact</h1>
         <form class="row g-3">
           <div class="col-md-6">
             <label for="voornaam" class="form-label">Voornaam</label>
@@ -500,7 +509,21 @@
           </div>
           <div class="col-md-4">
             <label for="telefoon" class="form-label">Telefoonnummer</label>
-            <input type="telefoon" class="form-control" id="telefoon" />
+            <input type="text" class="form-control" id="telefoon" />
+          </div>
+          <div class="col-md-12">
+            <label for="bericht" class="form-label">Schijf uw bericht</label>
+            <textarea
+              class="form-control"
+              id="bericht"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-outline-secondary">
+              VERZENDEN
+            </button>
           </div>
         </form>
       </div>

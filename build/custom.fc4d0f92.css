@@ -10833,15 +10833,15 @@ textarea.form-control-lg {
 }
 
 .contact-section {
-  background: brown;
+  background: #191c20;
   background-size: 100% 100%;
   width: 100%;
   height: 100vh;
 }
-
-.head {
-  border: 1px solid white;
-  border-radius: 5px;
+.contact-section .container {
+  background: #1d2125;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 @media (min-width: 992px) {
@@ -10871,4 +10871,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=custom.afd1ef8a.css.map */
+/*# sourceMappingURL=custom.fc4d0f92.css.map */
