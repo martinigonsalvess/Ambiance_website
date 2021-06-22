@@ -30,9 +30,14 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   color: $body-bg;
   text-decoration: none;
   border-radius: 5px;
-  opacity: 1;
+  opacity: 0;
   pointer-events: none;
   transition: all 0.4s;
+}
+.pijl-boven.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
 }
 .container .navbar {
   background: $body-bg;
