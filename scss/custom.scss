@@ -145,8 +145,14 @@ $font-family-sans-serif: "Quicksand", sans-serif;
 }
 .carousel {
   border-radius: 10px 10px 10px 10px;
+  border: 10px solid $body-bg1;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+  font-size: 40px;
 }
 .contact-section {
   // background: url(../assets/images/contact-people.jpg) no-repeat;
@@ -157,7 +163,6 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   .container {
     background: $body-bg1;
     border-radius: 10px;
-
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   }
   .map {
