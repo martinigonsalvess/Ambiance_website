@@ -10869,7 +10869,7 @@ textarea.form-control-lg {
 }
 
 .producten-section {
-  background: chartreuse;
+  background: #191c20;
   background-size: 100% 100%;
   width: 100%;
 }
@@ -10885,7 +10885,6 @@ textarea.form-control-lg {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
-
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;

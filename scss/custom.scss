@@ -138,7 +138,7 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   letter-spacing: 0.1rem;
 }
 .producten-section {
-  background: chartreuse;
+  background: $body-bg;
   background-size: 100% 100%;
   width: 100%;
   // height: 100vh;
@@ -154,6 +154,8 @@ $font-family-sans-serif: "Quicksand", sans-serif;
     border-radius: 10px;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  }
+  .map {
   }
 }
 
