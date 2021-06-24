@@ -137,11 +137,16 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   color: $secondary;
   letter-spacing: 0.1rem;
 }
-.producten-section {
+.gallerij-section {
   background: $body-bg;
   background-size: 100% 100%;
   width: 100%;
   // height: 100vh;
+}
+.carousel {
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 .contact-section {
   // background: url(../assets/images/contact-people.jpg) no-repeat;
@@ -168,7 +173,7 @@ $font-family-sans-serif: "Quicksand", sans-serif;
   }
   .home-section,
   .behandelingen-section,
-  .producten-section,
+  .gallerij-section,
   .contact-section {
     height: 100%;
   }

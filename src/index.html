@@ -85,7 +85,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#producten">Producten</a>
+                <a class="nav-link" href="#gallerij">Gallerij</a>
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Ultrasonic</a>
@@ -483,52 +483,91 @@
         </div>
       </div>
     </div>
-    <!--Producten-->
-    <div class="container-fluid producten-section" id="producten">
+    <!--Gallerij-->
+    <div class="container-fluid gallerij-section" id="gallerij">
       <h1 class="fw-bold text-center my-5">Gallerij</h1>
 
       <!-- <div class="container p-5"> -->
-      <div class="container max-height d-flex align-items-center p-5">
+      <div class="container max-height d-flex align-items-center py-5">
         <div
           id="carouselExampleCaptions"
-          class="carousel slide"
+          class="carousel slide carousel-fade"
           data-bs-interval="4000"
           data-bs-ride="carousel"
         >
+          <!-- indicatie hoeveel foto er zijn-->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="picture1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-current="true"
+              aria-label="picture2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-current="true"
+              aria-label="picture3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-current="true"
+              aria-label="picture4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-current="true"
+              aria-label="picture5"
+            ></button>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
                 src="../assets/images/ambiance-plakaat.jpg"
                 class="d-block w-100"
-                alt="picture"
+                alt="picture1"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="../assets/images/ambiance-stoel.jpg"
                 class="d-block w-100"
-                alt="picture"
+                alt="picture2"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="../assets/images/ambiance-spiegel.jpg"
                 class="d-block w-100"
-                alt="picture"
+                alt="picture3"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="../assets/images/ambiance-doos.jpg"
                 class="d-block w-100"
-                alt="picture"
+                alt="picture4"
               />
             </div>
             <div class="carousel-item">
               <img
                 src="../assets/images/ultrasonic.jpg"
                 class="d-block w-100"
-                alt="picture"
+                alt="picture5"
               />
             </div>
           </div>
